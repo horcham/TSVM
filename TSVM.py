@@ -123,7 +123,7 @@ class TSVM(object):
         '''
         joblib.dump(self.clf, path)
 
-if __name__ == '__main':
+if __name__ == '__main__':
     model = TSVM()
     model.initial()
     model.train(X1, Y1, X2)
