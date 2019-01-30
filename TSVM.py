@@ -89,8 +89,8 @@ class TSVM(object):
         Y: labels of X
                 np.array, shape:[n, ], n: numbers of samples
 
-        Return
-        ------
+        Returns
+        -------
         Accuracy of TSVM
                 float
         '''
@@ -105,8 +105,8 @@ class TSVM(object):
         X: Input data
                 np.array, shape:[n, m], n: numbers of samples, m: numbers of features
 
-        Return
-        ------
+        Returns
+        -------
         labels of X
                 np.array, shape:[n, ], n: numbers of samples
         '''
